@@ -1,6 +1,5 @@
 # Analise_Censo_Escolar_2020
 This repository is part of a self-training project to work with Data Analysis, more than working with tools, to get started to what problems can be solved with Data and its possibilities.
-
 ## How to run?
 Download or clone the repository, enter the main page and type on your favorite terminal "jupyter notebook" inside the main dir.
 
