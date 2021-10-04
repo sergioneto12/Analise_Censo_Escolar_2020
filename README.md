@@ -28,7 +28,7 @@ Assim ficaram os capítulos de análise estatística:
  - Distribuição por quartis dos dados especificos dos individuos, a partir das idades.
  - Descrição geral dos dados.
 
-## Seleção de dados e features para cosntrução de modelo de machine learning.
+## Seleção de dados e features para construção de modelo de machine learning.
 
 Após uma análise dos dados, dadas as features que não são linearmente dependentes da área de atuação, foi feita, inicialmente, uma construção de uma seleção das melhores features, a análise de um modelo classificatório para os dados apresentados, o entendimento do melhor modelo e a comprovação dos resultados.
 
