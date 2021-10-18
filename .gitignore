@@ -2,6 +2,7 @@
 /FILTROS
 /LEIA-ME
 /out.csv
+/clf_model_teachers.pkl
 
 /DADOS/docentes_co.CSV
 /DADOS/docentes_nordeste.CSV
