@@ -1,3 +1,43 @@
+# Analysis - School Census 2020: Teachers
+Do you know how the education system works in the state of São Paulo? And in the country? What are the metrics that determine the biggest problems, and how to solve them?
+
+Defining the problem is a complex matter, as there are many issues to be raised. Criteria for selecting teachers, greater concentration by age... But what are the chances of a teacher being in a certain subject (in our example, math!) only due to factors such as age, gender, specialization, etc.?
+
+## Data Transformation Process
+With the support of the census provided by INEP, and after determining that the study would initially cover the southeastern region, data loading and transformation were performed for better column reading and also a restructuring of null data within the main table.
+
+The structure of this loading was as follows:
+
+Importing modules for loading and statistical analysis.
+Loading data through a CSV with Pandas.
+Monitoring columns, selecting the best columns (initially removing meaningless columns with repeated data, etc.).
+Checking for null data and replacing it with "zero", which was possible due to the construction of the columns.
+## Statistical analysis
+Following the transformation, some points were raised to study the data, some generic for understanding purposes (such as teacher age for a certain sample and total data correlation), and some specific questions, such as reading teacher declaration data by subject, distribution by quartiles, among others.
+
+Thus, the statistical analysis chapters were:
+
+Numeric polarization of teachers, determined by gender.
+Distribution of teachers by age, verification of greater age concentration.
+Overall data correlation for knowledge and future use.
+General distribution by subject, given the sum of "true" cases per subject column.
+Distribution by quartiles of specific individual data, starting from ages.
+General description of the data.
+## Selection of data and features for building a machine learning model
+After analyzing the data, given the features that are not linearly dependent on the area of expertise, a selection of the best features was initially made, followed by an analysis of a classification model for the presented data, understanding of the best model and verification of the results.
+
+The choice of a classification model is due to the fact that a large part of the data is divided into true or false, so it is logical to consider that regression models, which have a better application for sparse and less qualified data, would not be useful in this example.
+
+Copying the data, so that there would be no errors and a separate amount of data would be chosen from the total data, to avoid overfitting.
+Selection of the best features, using feature selection.
+Reading the feature evaluations and correlation between the selected columns.
+Training 4 models to verify the best fit for the data.
+Selection of the best model.
+## Finally...
+After choosing the best model, based on its score, data prediction is performed with a subset different from that chosen for model training and testing, and after that, an arithmetic analysis is performed to verify the accuracy of the data along with the obtained result.
+
+### Follows in Portuguese
+
 # Análise - Censo Escolar 2020: Professores
 
 Você conhece como funciona o sistema de educação no estado de São Paulo. E no país? Quais são as métricas que determinam os maiores problemas, e como resolvê-los?
